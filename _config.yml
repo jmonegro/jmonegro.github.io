@@ -1,16 +1,34 @@
+<<<<<<< HEAD
 baseurl:
 title: Joel Monegro
+=======
+---
+title: Tufte-Jekyll
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: 
+>>>>>>> 5d77d34f57c2592a1592df667596192f59451592
 subtitle: Content-centric blogging
 author: clay harmon
 simple_search: http://google.com/search
 description: Joel Monegro is a partner at Placeholder, a venture capital firm that invests in decentralized information networks
 name: tufte
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:short_year/:title
-timezone: America/New_York
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+permalink: "/articles/:short_year/:title"
+excerpt_separator: "<!--more-->"
+exclude:
+- Gemfile
+- Gemfile.lock
+- Rakefile
+- UploadToGithub.Rakefile
+- README.md
 post:
   template: _post.txt
   extension: md
@@ -22,6 +40,6 @@ git:
   branch: master
 transfer:
   command: rsync
-  settings: -av
+  settings: "-av"
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: "~/Git/clayh53.github.com/"
