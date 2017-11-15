@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-baseurl:
+baseurl: http://monegro.org
 title: Joel Monegro
 =======
 ---
@@ -12,7 +12,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: 
+baseurl:
 >>>>>>> 5d77d34f57c2592a1592df667596192f59451592
 subtitle: Content-centric blogging
 author: clay harmon
