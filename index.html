@@ -1,0 +1,15 @@
+---
+layout: default
+title: Joel Monegro
+---
+  <br>
+  <ul class="content-listing ">
+    {% for post in site.posts %}
+        <li class="listing">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
+          <div class="excerpt smaller">{{ post.excerpt }}</div>
+        </li>
+        <span style="color:#bbb"><br>&mdash;<br><br></span>
+    {% endfor %}
+  </ul>
