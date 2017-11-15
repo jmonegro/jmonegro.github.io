@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 baseurl: http://monegro.org
-subtitle: Content-centric blogging
+subtitle: Mostly blockchains
 author: clay harmon
 simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
