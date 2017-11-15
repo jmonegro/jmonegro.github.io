@@ -1,32 +1,24 @@
----
-layout: 
-nav_exclude: true
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Joel Monegro</title>
+    <description>Joel Monegro is a partner at Placeholder, a venture capital firm that invests in decentralized information networks.</description>
+    <link>http://monegro.orghttp://monegro.org/</link>
+    <atom:link href="http://monegro.orghttp://monegro.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Nov 2017 01:16:07 -0500</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2017 01:16:07 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>New Home</title>
+        <description>&lt;p&gt;I will now be publishing new content from this website (monegro.org) instead of my tumblr (joel.mn).&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2017 01:11:00 -0500</pubDate>
+        <link>http://monegro.orghttp://monegro.org/posts/new-home</link>
+        <guid isPermaLink="true">http://monegro.orghttp://monegro.org/posts/new-home</guid>
+        
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
