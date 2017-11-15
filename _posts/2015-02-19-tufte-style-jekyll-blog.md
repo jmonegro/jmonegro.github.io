@@ -1,9 +1,6 @@
 ---
 title: Tufte-style Jekyll blog
-date: 2015-02-19 16:46:04 -05:00
-categories:
-- jekyll
-- css
+date: 2015-02-19 16:46:00 -05:00
 layout: post
 ---
 
