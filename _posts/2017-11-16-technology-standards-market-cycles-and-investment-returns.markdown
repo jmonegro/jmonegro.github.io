@@ -1,6 +1,7 @@
 ---
 title: Technology Standards, Market Cycles, and Investment Returns
 date: 2017-11-16 23:35:00 -05:00
+published: false
 ---
 
 Information technology evolves in multi-decade cycles of expansion, consolidation and decentralization. Periods of expansion follow the introduction of a new open platform that reduces the production costs of technology as it becomes a shared standard. As production costs fall, new firms come to market leveraging the savings to compete with established incumbents on price, pushing down margins and decentralizing the supply side of the market.
