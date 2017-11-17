@@ -1,6 +1,7 @@
 ---
 title: New Home
 date: 2017-11-15 01:11:00 -05:00
+layout: post
 ---
 
-I will now be publishing new content from this website (monegro.org) instead of my tumblr (joel.mn). 
+I will now be publishing new content from this website (monegro.org) instead of my tumblr (joel.mn).

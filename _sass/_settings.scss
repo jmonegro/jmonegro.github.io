@@ -24,8 +24,12 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 }
 
 a {
-  text-decoration:underline !important;
+  // text-decoration:underline;
   &:hover {
-    text-decoration:none;
+    text-decoration:underline;
   }
+}
+
+.no-underline {
+  text-decoration:none;
 }
