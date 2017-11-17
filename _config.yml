@@ -8,7 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-# baseurl: http://monegro.org
 subtitle: Mostly blockchains
 author: clay harmon
 simple_search: http://google.com/search
