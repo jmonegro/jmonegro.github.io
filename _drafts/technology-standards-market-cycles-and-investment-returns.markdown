@@ -5,6 +5,8 @@ date: 2017-11-16 23:35:00 -05:00
 
 Information technology evolves in multi-decade cycles of expansion, consolidation and decentralization. Periods of expansion follow the introduction of a new open platform that reduces the production costs of technology as it becomes a shared standard. As production costs fall, new firms come to market leveraging the savings to compete with established incumbents on price, pushing down margins and decentralizing the supply side of the market.
 
+<!--more-->
+
 The price drop attracts new users, increasing the overall size of the market and creating new opportunities for mass consumer applications. Entrepreneurial talent moves to serve the new markets where costs are low, competition is scarce, and the upside is high. Often these early entrepreneurs will introduce new kinds of business models, orthogonal to existing ones.
 
 Those who succeed the most and establish successful platforms “on top” of the open standard later tend to consolidate the industry by leveraging their scale (in assets and distribution) to integrate vertically and expand horizontally at the expense of smaller companies. Competing in this new environment suddenly becomes expensive and startups struggle to create value in the shadow of incumbents, compressing venture returns. 
